@@ -3,7 +3,7 @@ About r-logistf
 
 Home: http://cemsiis.meduniwien.ac.at/en/kb/science-research/software/statistical-software/fllogistf/
 
-Package license: GPL
+Package license: GPL-2.0-or-later
 
 Feedstock license: BSD-3-Clause
 
