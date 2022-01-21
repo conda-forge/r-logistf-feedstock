@@ -1,4 +1,4 @@
-{% set version = "1.24" %}
+{% set version = "1.24.1" %}
 {% set posix = 'm2-' if win else '' %}
 {% set native = 'm2w64-' if win else '' %}
 
@@ -10,7 +10,7 @@ source:
   url:
     - {{ cran_mirror }}/src/contrib/logistf_{{ version }}.tar.gz
     - {{ cran_mirror }}/src/contrib/Archive/logistf/logistf_{{ version }}.tar.gz
-  sha256: 6561d311fe21b789954cb33c008b86abdd6509b2a2900385dd6046163679d96b
+  sha256: e7e0d9054cf7f3221ba363afa0fdf1c8bb65b8841700ec0010fa4886be26a661
 
 build:
   merge_build_host: true  # [win]
