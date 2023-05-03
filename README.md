@@ -6,19 +6,23 @@ Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/r-logistf-feeds
 About r-logistf
 ---------------
 
-Home: http://cemsiis.meduniwien.ac.at/en/kb/science-research/software/statistical-software/fllogistf/
+Home: https://cemsiis.meduniwien.ac.at/en/kb/science-research/software/statistical-software/firth-correction/
 
 Package license: GPL-2.0-or-later
 
-Summary: Fit a logistic regression model using Firth's bias reduction method, equivalent to penalization of the log-likelihood by the Jeffreys  prior. Confidence intervals for regression coefficients can be computed by penalized profile likelihood. Firth's method was proposed as ideal solution to the problem of separation in logistic regression. If needed, the bias reduction can be turned off such that ordinary maximum likelihood logistic regression is obtained.
+Summary: Fit a logistic regression model using Firth's bias reduction method, equivalent to penalization of the log-likelihood by the Jeffreys prior. Confidence intervals for regression coefficients can be computed by penalized profile likelihood. Firth's method was proposed as ideal solution to the problem of separation in logistic regression, see Heinze and Schemper (2002) <doi:10.1002/sim.1047>. If needed, the bias reduction can be turned off such that ordinary maximum likelihood logistic regression is obtained. Two new modifications of Firth's method, FLIC and FLAC, lead to unbiased predictions and are now available in the package as well, see Puhr et al (2017) <doi:10.1002/sim.7273>.
+
+Development: https://github.com/georgheinze/logistf
 About r-logistf
 ---------------
 
-Home: http://cemsiis.meduniwien.ac.at/en/kb/science-research/software/statistical-software/fllogistf/
+Home: https://cemsiis.meduniwien.ac.at/en/kb/science-research/software/statistical-software/firth-correction/
 
 Package license: GPL-2.0-or-later
 
-Summary: Fit a logistic regression model using Firth's bias reduction method, equivalent to penalization of the log-likelihood by the Jeffreys  prior. Confidence intervals for regression coefficients can be computed by penalized profile likelihood. Firth's method was proposed as ideal solution to the problem of separation in logistic regression. If needed, the bias reduction can be turned off such that ordinary maximum likelihood logistic regression is obtained.
+Summary: Fit a logistic regression model using Firth's bias reduction method, equivalent to penalization of the log-likelihood by the Jeffreys prior. Confidence intervals for regression coefficients can be computed by penalized profile likelihood. Firth's method was proposed as ideal solution to the problem of separation in logistic regression, see Heinze and Schemper (2002) <doi:10.1002/sim.1047>. If needed, the bias reduction can be turned off such that ordinary maximum likelihood logistic regression is obtained. Two new modifications of Firth's method, FLIC and FLAC, lead to unbiased predictions and are now available in the package as well, see Puhr et al (2017) <doi:10.1002/sim.7273>.
+
+Development: https://github.com/georgheinze/logistf
 
 Current build status
 ====================
