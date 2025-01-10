@@ -12,7 +12,7 @@ source:
   sha256: f916e568c8c64fc48695c72214439267c02310c6c68d3ffea5708ec00e80190b
 
 build:
-  number: 1
+  number: 2
   rpaths:
     - lib/R/lib/
     - lib/
@@ -28,6 +28,11 @@ requirements:
     - {{ posix }}sed               # [win]
     - {{ posix }}coreutils         # [win]
     - {{ posix }}zip               # [win]
+    - cross-r-base {{ r_base }}    # [build_platform != target_platform]
+    - r-matrix                     # [build_platform != target_platform]
+    - r-mice                       # [build_platform != target_platform]
+    - r-mgcv                       # [build_platform != target_platform]
+    - r-formula.tools              # [build_platform != target_platform]
   host:
     - r-base
     - r-matrix
@@ -53,7 +58,6 @@ about:
   summary: Fit a logistic regression model using Firth's bias reduction method, equivalent to penalization of the log-likelihood by the Jeffreys prior. Confidence intervals for regression coefficients can be computed by penalized profile likelihood. Firth's method was proposed as ideal solution to the problem of separation
     in logistic regression, see Heinze and Schemper (2002) <doi:10.1002/sim.1047>. If needed, the bias reduction can be turned off such that ordinary maximum likelihood logistic regression is obtained. Two new modifications of Firth's method, FLIC and FLAC, lead to unbiased predictions and are now available in the package
     as well, see Puhr et al (2017) <doi:10.1002/sim.7273>.
-  license_family: GPL
   license_file:
     - {{ environ["PREFIX"] }}/lib/R/share/licenses/GPL-2
     - {{ environ["PREFIX"] }}/lib/R/share/licenses/GPL-3
